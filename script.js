@@ -1,4 +1,9 @@
-
+function redirectToMenu() {
+    // Yükleme animasyonunu göster
+   
+    // Sayfayı yönlendir
+    window.location.href = "menu.html";
+}
    // İnstagram ikonuna tıklanınca yönlendirme işlemi
    document.getElementById("instagramIcon").addEventListener("click", function() {
     // Yönlendirme işlemi
